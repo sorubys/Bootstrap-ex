@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/home/ukistu03/Documents/Uki4/Programming/bootstrap/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/home/ukistu03/Documents/Uki4/Programming/bootstrap/bootstrap/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+  <h2></h2>
+  <p></p>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Button Dropdown Menu
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Bootstrap</a></li>
+      <li><a href="#">jQuery</a></li>
+      <li><a href="#">jQuery UI</a></li>
+      <li class="divider"></li>
+      <li><a href="#">PHP</a></li>
+    </ul>
+  </div><br><br>
+
+  <nav class="navbar navbar-inverse">
+ <div class="container-fluid">
+  <ul class="nav navbar-nav">
+  <li class="active"><a href="#"><span class="glyphicon glyphicon-home"> HOME</span></a></li>
+  <li class="dropdown">
+  <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-align-justify"> MENUS </span>
+  <span class="glyphicon glyphicon-plus" style="align:right"></span></a>
+  <ul class="dropdown-menu">
+  <li><a href="#">Menu 2</a></li>
+  <li class="dropdown">
+  <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Menu 1 </span>
+  <span class="glyphicon glyphicon-plus" style="align:right"></span></a>
+  <ul class="dropdown-menu">
+  <li><a href="#">Menu 1.1</a></li>
+  <li><a href="#">Menu 1.2</a></li>
+  </ul>
+  </li>
+  </ul>
+  </li>
+  <li><a href="#"><span class="glyphicon glyphicon-cog"> SETTINGS</span></a></li>
+  <li><a href="#"><span class="glyphicon glyphicon-earphone"> CONTACT</span></a></li>
+  </ul>
+  </div>
+  </nav> <br>
+  <div style="width:40%">
+     <div class="col-lg-6">
+       <div class="input-group">
+<input type="text" class="form-control" placeholder="Search for...">
+<span class="input-group-btn">
+<select id="ddlsearch" class="selectpicker form-control" data-style="btn-primary">
+<option value="Acessories">Acessories</option>
+<option value="Jackets">Jackets</option>
+    <option value="Jeans">Jeans</option>
+<option value="Shoes">Shoes</option>
+      <option value="Shirts">Shirts</option>
+<option value="Watches">Watches</option>
+  </select>
+<button class="btn btn-secondary" type="button"><span class="glyphicon glyphicon-search"></span></button>
+  </span>
+</div>
+  </div>
+  </div><br><br>
+
+
+
+
+
+<div class="container">
+  <h2>Contextual Classes</h2>
+  <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Product Quality</th>
+        <th>Product Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="info">
+        <td>1</td>
+        <td>Wheat</td>
+        <td>Good</td>
+        <td>200 bags</td>
+      </tr>
+      <tr class="danger">
+        <td>2</td>
+        <td>Rice</td>
+        <td>Good</td>
+        <td>250 bags</td>
+      </tr>
+      <tr  class="warning">
+        <td>3</td>
+        <td>Sugar</td>
+        <td>Good</td>
+        <td>200 bags</td>
+      </tr>
+      <tr >
+        <td>3</td>
+        <td>Sugar</td>
+        <td>Good</td>
+        <td>200 bags</td>
+
+      </tr>
+      <tr class="success">
+        <td>3</td>
+        <td>Sugar</td>
+        <td>Good</td>
+        <td>200 bags</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">HOME</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Web Designing</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Web Hosting</a></li>
+        </ul>
+      </li>
+      <li class="active"><a href="#">ABOUT</a></li>
+      <li><a href="#">BLOG</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h3>Right Aligned Navbar</h3>
+  <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
+</div>
+
+
+
+
+</body>
+</html>
